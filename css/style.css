@@ -1,0 +1,64 @@
+/* resetting */
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+/* media inquiries */
+
+@media (max-width: 768px) {
+	h2 {
+		text-align: center;
+	}
+}
+
+/* text styles */
+
+.thin-text {
+	font-weight: 100;
+}
+
+.light-text {
+	font-weight: 300;
+}
+
+.title-text {
+	font-size: 60px;
+	margin-bottom: 0px;
+}
+
+.sub-title {
+	margin-top: 1px;
+}
+
+.feature-text {
+	color: #BCBBBB;
+	font-size: 36px;
+}
+hr {
+	background: #BCBBBB;
+	border: 0;
+	height: 4px;
+}
+
+/* image styles */
+
+.logo-image {
+	width:100px;
+	height:100px;
+	margin-top:20px;
+	opacity: 0.6;
+}
+.main-image {
+	margin-bottom:10px;
+}
+.featured-boxes {
+	margin: auto;
+ 	opacity: 0.9;
+  	cursor: pointer;
+}
+.featured-boxes:hover {
+	opacity: 1;
+}
